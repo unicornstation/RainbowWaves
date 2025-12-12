@@ -28,7 +28,7 @@ struct RainbowWavesDynamicView: View {
                 })
         )
         .onReceive(timer) { _ in
-            time = time + 0.0015
+            time = time + 0.0065
         }
     }
 }
