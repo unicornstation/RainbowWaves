@@ -9,7 +9,7 @@
 #include <metal_stdlib>
 using namespace metal;
 
-[[ stitchable ]] half4 rainbowColors(float2 position, float4 bounds,
+[[ stitchable ]] half4 rainbowWaves(float2 position, float4 bounds,
     float iTime, float2 iMouse
 ) {
     //Scaled pixel coordinates
