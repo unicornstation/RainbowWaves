@@ -11,7 +11,7 @@ import SwiftUI
 struct RainbowWavesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RainbowWavesDynamicView()
         }
     }
 }
