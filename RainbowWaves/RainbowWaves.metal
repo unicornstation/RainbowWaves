@@ -23,7 +23,7 @@ using namespace metal;
         p.x += sin(p.y + i + iTime*0.3);
         //Rotate and scale down
       //  p *= half2x2(6, -8, 8, 6) / 8.0h; //default
-        p *= half2x2(6, -8, 18, 3) / 13.0h; //my changes
+        p *= half2x2(6, -8, 18, 3) / 10.0h; //my changes
     }
     p += half2(iMouse/50);
     //Pick a color using the turbulent coordinates
