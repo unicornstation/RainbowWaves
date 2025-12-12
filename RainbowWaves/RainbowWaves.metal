@@ -4,15 +4,10 @@
 //
 //  Created by Alyona Voronina on 12.12.2025.
 //
+//  Based on: https://www.shadertoy.com/view/lXXXzS
 
 #include <metal_stdlib>
 using namespace metal;
-
-Based on: https://www.shadertoy.com/view/lXXXzS
-
-#include <metal_stdlib>
-using namespace metal;
-
 
 [[ stitchable ]] half4 rainbowColors(float2 position, float4 bounds,
     float iTime, float2 iMouse
